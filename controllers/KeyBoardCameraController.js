@@ -1,7 +1,7 @@
 import { Vector3, Quaternion } from "three";
 
 const Speed = 0.1;
-const Distance = 1;
+const Distance = 0.1;
 
 const KeyW = 87;
 const KeyA = 65;
@@ -15,7 +15,7 @@ const KeyDown = 40;
 
 export default class KeyBoardCameraController {
   moveX = 0;
-  moveY = 0; //
+  moveY = 0;
   moveZ = 0;
 
   constructor() {

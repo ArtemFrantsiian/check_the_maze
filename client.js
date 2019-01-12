@@ -14,6 +14,10 @@ function init(bundle, parent, options = {}) {
     r360.createRoot('InitialLocation'),
     r360.getDefaultLocation(),
   );
+  r360.renderToSurface(
+    r360.createRoot('DoorButton'),
+    r360.getDefaultSurface(),
+  );
   r360.renderToLocation(
     r360.createRoot('Room2'),
     r360.getDefaultLocation(),
