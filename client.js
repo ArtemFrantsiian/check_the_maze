@@ -17,6 +17,7 @@ function init(bundle, parent, options = {}) {
   r360.renderToLocation(
     r360.createRoot('Room2'),
     r360.getDefaultLocation(),
+  );
   r360.controls.addCameraController(new KeyBoardCameraController());
 
   // Load the initial environment
